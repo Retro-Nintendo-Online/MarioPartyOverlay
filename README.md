@@ -14,6 +14,32 @@ Settings can be found by clicking on the gear and then "Open Settings" (or by cl
 
 A more extensive (and likely up-to-date) introduction can by found by clicking on the gear and then "Credits".
 
+# Build it yourself?
+
+## Web App
+
+The app doesnt need to be built in layman's terms but it does need to be set up through a web browser.
+
+## Native App
+
+### Windows
+
+```bash
+nativefier --platform "windows" --app-version "1.20" --build-version "1.20" --darwin-dark-mode-support --background-color "#2e2c29" --disable-context-menu --disable-dev-tools --title-bar-style "hiddenInset" --single-instance --width "700px" --height "500px" --min-width "700px" --min-height "500px" --icon "logo.png" --fast-quit 'https://retro-nintendo-online.github.io/MarioPartyOverlay/'
+```
+
+### MacOS
+
+```bash
+nativefier --platform "mac" --app-version "1.20" --build-version "1.20" --darwin-dark-mode-support --background-color "#2e2c29" --disable-context-menu --disable-dev-tools --title-bar-style "hiddenInset" --single-instance --width "700px" --height "500px" --min-width "700px" --min-height "500px" --icon "logo.png" --fast-quit 'https://retro-nintendo-online.github.io/MarioPartyOverlay/'
+```
+
+### Linux
+
+```bash
+nativefier --platform "linux" --app-version "1.20" --build-version "1.20" --darwin-dark-mode-support --background-color "#2e2c29" --disable-context-menu --disable-dev-tools --title-bar-style "hiddenInset" --single-instance --width "700px" --height "500px" --min-width "700px" --min-height "500px" --icon "logo.png" --fast-quit 'https://retro-nintendo-online.github.io/MarioPartyOverlay/'
+```
+
 # Credits
 **All characters, products and company names are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them. Mario Party is a registered trademark of Nintendo.**
 
